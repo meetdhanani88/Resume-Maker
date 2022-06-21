@@ -1,0 +1,21 @@
+.rescontainer {  display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header"
+      "left right"
+      "left right"
+      "left right";
+      gap: 50px 5px; 
+  }
+  
+  .resheader { grid-area: header;
+
+}
+  
+  .resleft { grid-area: left; }
+  
+  .resright { grid-area: right; }
+  
